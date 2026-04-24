@@ -1,16 +1,43 @@
-# React + Vite
+# Elby - Pastelaria Caseira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de website para uma pastelaria caseira, desenvolvido em React com Vite.
 
-Currently, two official plugins are available:
+Este projeto foi criado com o objetivo de praticar desenvolvimento frontend, focando-me em organização de componentes, styling e construção de uma interface simples, moderna e funcional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tecnologias utilizadas:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- JavaScript
+- CSS (custom, sem frameworks)
+- React Router
+- React Icons
+- Google Maps Embed API
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades:
+
+- Página inicial com apresentação do negócio
+- Galeria de produtos (bolos, sobremesas, etc)
+- Página de menu organizada por categorias
+- Página de encomendas com:
+  - botão direto para Instagram
+  - instruções de encomenda
+  - localização com Google Maps
+- Layout responsivo (em desenvolvimento)
+
+---
+
+Este projeto usa Google Maps API, criar um ficheiro .env na raiz com: VITE_GOOGLE_MAPS_KEY=your_api_key_here
+
+Este é um projeto pessoal desenvolvido enquanto estou a aprender React e frontend.
+O foco foi manter o código simples, organizado e com um design consistente.
+
+Pretendo continuar a melhorar o projeto com:
+
+- Novas funcionalidades
+- Melhor UX/UI
+- Responsividade
+- Otimizações
