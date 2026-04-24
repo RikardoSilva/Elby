@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --main-bg: #f4d6c9;
+    --text-dark: #3b3b3b;
+    --accent: #e7b8a3;
+}
+
+body {
+    margin: 0;
+    /* font-family: system-ui, sans-serif; */
+    background-color: var(--main-bg);
+    color: var(--text-dark);
+}

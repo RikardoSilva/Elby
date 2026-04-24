@@ -1,0 +1,48 @@
+.footer {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent);
+    gap: 1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.icon.facebook {
+    color: #1877F2;
+}
+
+.icon.instagram {
+    color: #E4405F;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4a2c2a;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+}

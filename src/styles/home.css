@@ -1,0 +1,22 @@
+.home {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.placeholder {
+    width: 180px;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
