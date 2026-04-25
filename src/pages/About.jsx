@@ -40,6 +40,10 @@ function About() {
                     Nascida em 2021, a Elby nasceu da paixão pela pastelaria caseira e pelo prazer de criar bolos que sabem a amor e que
                     fazem parte de momentos especiais!
                 </p>
+                <p>
+                    Comecei meu percurso profissional trabalhando num grupo de hotel de renome, trabalhando na Elby nas horas vagas.
+                    Em 2023 decidi dedicar-me a full-time neste projeto e faço disto a minha vida atualmente.
+                </p>
 
                 <Cards section={"Como trabalhamos"}>
                     <Card
@@ -67,7 +71,7 @@ function About() {
 
                 </Cards>
 
-                <div className="faq-content">
+                {/* <div className="faq-content">
                     <h2>Dúvidas Frequentes</h2>
                     <FAQItem
                         index={0}
@@ -102,11 +106,11 @@ function About() {
                         index={3}
                         title="Como posso fazer o pagamento?"
                         body="O pagamento é feito em dinheiro aquando da entrega, ou via MBWay (tenha em atenção que esta última opção
-                        depende dos limites do mês recorrente)."
+                        depende dos limites do mês)."
                         activeIndex={activeIndex}
                         setActiveIndex={setActiveIndex}
                     />
-                </div>
+                </div> */}
             </section>
         </>
     )

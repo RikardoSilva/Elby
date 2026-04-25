@@ -39,10 +39,13 @@
 }
 
 .orders-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    max-width: 990px;
     gap: 2.5rem;
-    align-items: start;
+    margin: 0 auto;
+}
+
+.orders-info {
+    width: 100%;
 }
 
 .orders-info h2 {
@@ -69,15 +72,79 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.prices-grid {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1.2rem));
+    gap: 12px;
+}
+
+.price-item {
+    padding: 14px 16px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.price-item span {
+    opacity: 0.8;
+}
+
+.price-item strong {
+    color: #4a2c2a;
+    font-weight: 600;
+}
+
+.prices-note {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.delivery-hours {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.delivery-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.delivery-item span {
+    opacity: 0.8;
+}
+
+.delivery-item strong {
+    font-weight: 600;
+    color: #4a2c2a;
+}
+
+.delivery-note {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    opacity: 0.65;
+}
+
 .orders-map {
-    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 16px;
     overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .orders-map iframe {
     width: 100%;
-    height: 300px;
+    height: 350px;
     border: 0;
     display: block;
 }
