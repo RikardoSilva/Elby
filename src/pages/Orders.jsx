@@ -45,14 +45,13 @@ function Orders() {
                     <div className="prices-grid">
                         <div className="price-item">
                             <span>Entrega</span>
-                            <strong>Recolha gratuita</strong>
                             <strong>Entregas em toda a ilha da Madeira, mediante disponibilidade. O valor
                                 será calculado consoante a distância.
                             </strong>
                         </div>
                         <div className="price-item">
                             <span>Bolos personalizados</span>
-                            <strong>€20/Kg</strong>
+                            <strong>Sob Consulta</strong>
                         </div>
 
                         <div className="price-item">
@@ -93,22 +92,6 @@ function Orders() {
                             src={`https://www.google.com/maps/embed/v1/place?key=${googleMapsKey}&q=32.657370, -16.973339&zoom=17`}></iframe>
                     </div>
 
-                    <h2>Horários das entregas</h2>
-                    <div className="delivery-hours">
-                        <div className="delivery-item">
-                            <span>Segunda a Sábado</span>
-                            <strong>09:00 - 19:00</strong>
-                        </div>
-
-                        <div className="delivery-item">
-                            <span>Domingos</span>
-                            <strong>09:00 - 13:00</strong>
-                        </div>
-
-                        <p className="delivery-note">
-                            * Horários sujeitos a alterações e confirmação no momento da encomenda.
-                        </p>
-                    </div>
                 </div>
 
             </div>

@@ -76,7 +76,7 @@
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(2, minmax(180px, 1.2rem));
+    grid-template-columns: repeat(5, minmax(180px, 1.2rem));
     gap: 12px;
 }
 
@@ -101,37 +101,6 @@
 .prices-note {
     font-size: 0.9rem;
     opacity: 0.7;
-}
-
-.delivery-hours {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.delivery-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 16px;
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.delivery-item span {
-    opacity: 0.8;
-}
-
-.delivery-item strong {
-    font-weight: 600;
-    color: #4a2c2a;
-}
-
-.delivery-note {
-    margin-top: 0.4rem;
-    font-size: 0.85rem;
-    opacity: 0.65;
 }
 
 .orders-map {
